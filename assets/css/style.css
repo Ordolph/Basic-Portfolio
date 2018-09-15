@@ -1,4 +1,48 @@
 .divider {
+    z-index: 1;
     position: relative;
     width: 100%;
+    height: 10%;
+    background: #000000;
+}
+
+.background {
+    z-index: 0;
+}
+
+h1 {
+    Position: absolute;
+    left: 20%;
+    padding: 2.5%;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home {
+    z-index: 1;
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+    color: #bbacaf;
+}
+
+.contact {
+    z-index: 1;
+    position: absolute;
+    right: 25%;
+    bottom: 20%;
+    color: #bbacaf;
+}
+
+.portfolio {
+    z-index: 1;
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    color: #bbacaf;
+}
+
+.main-body {
+    +
 }
