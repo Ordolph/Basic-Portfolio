@@ -3,20 +3,38 @@
     position: relative;
     width: 100%;
     height: 10%;
-    background: #000000;
+    background: #ffffff;
+    box-shadow: 2px 1px 1px rgb(146, 170, 179);
 }
 
 .background {
     z-index: 0;
+    
 }
 
 h1 {
+    z-index: 1;
     Position: absolute;
     left: 20%;
-    padding: 2.5%;
     background: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 2px 1px 1px rgb(146, 170, 179);
+}
+
+h2 {
+    color: #4aaaa5;
+    height: 5%;
+    width: 90%;
+    border-bottom: 3px solid #bbacaf;
+    margin-left: 5%;
+    font-size: 200%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .home {
@@ -44,5 +62,45 @@ h1 {
 }
 
 .main-body {
-    +
+    z-index: 1;
+    width: 960px;
+    position: relative;
+    left: 33%;
+    background-color: #ffffff;
+    box-shadow: 5px 3px 3px 1px rgb(146, 170, 179);
+
+    
 }
+
+body {
+    /* background-image: url("../images/bananas.png"); */
+    /* background-image: url("../images/background.png") */
+    background-image: url(../images/gravel.png);
+}
+
+html, body {
+    margin:0 auto;
+    padding:0;
+}
+.profile {
+    position: absolute;
+    left: 2.5%;
+    float: left;
+
+}
+
+.right {
+    float: right;
+}
+
+p {
+    padding-bottom: 5%;
+    line-height: 200%;
+
+}
+
+.clear {
+    clear:both;
+    line-height:0;
+}
+
