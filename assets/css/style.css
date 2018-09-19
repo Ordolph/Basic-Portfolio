@@ -85,7 +85,7 @@ html, body {
 }
 .profile {
     display: inline;
-    margin: 2%;
+    margin: 5px;
 }
 
 .right {
@@ -135,7 +135,9 @@ footer {
     position: relative;
 }
  p {
+    display: inline;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12pt;
  }
 
  .submit-button {
@@ -149,10 +151,50 @@ footer {
     box-shadow: 3px 3px 3px 1px rgb(146, 170, 179);
 }
 .port-img1 {
-    position: relative;
+    margin: 15px;
 }
 
-.portfolio_name {
+
+
+.port-img2 {
+    margin: 15px;
+}
+
+.port-img3 {
+    margin: 15px;
+}
+
+.port-img4 {
+    margin: 15px;
+}
+
+.port-img5 {
+    margin: 15px;
+}
+
+.portfolio-name-box {
+    position: relative;
+}
+.portfolio-name {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    bottom: 15px;
+    left: 75px;
+}
+
+.picture{ 
+    float: left;
+
+}
+
+/* .portfolio_name {
     background-color: #4aaaa5;
     color: #ffffff;
     position: absolute;
@@ -163,28 +205,4 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
    
-}
-
-.port-img2 {
-    float: right;
-    margin: 15px;
-}
-
-.port-img3 {
-    float: left;
-    margin: 15px;
-}
-
-.port-img4 {
-    float: right;
-    margin: 15px;
-}
-
-.port-img5 {
-    float: left;
-    margin: 15px;
-}
-
-.picture {
- position: relative;
-}
+} */
