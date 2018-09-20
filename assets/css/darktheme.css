@@ -7,8 +7,8 @@ A {
     position: relative;
     width: 100%;
     height: 100px;
-    background: #ffffff;
-    box-shadow: 2px 1px 1px rgb(146, 170, 179);
+    background: #1F374A;
+    box-shadow: 2px 1px 1px rgb(56, 56, 56);
 }
 
 .background {
@@ -19,8 +19,8 @@ h1 {
     z-index: 1;
     Position: absolute;
     left: 20%;
-    background: #4aaaa5;
-    color: #ffffff;
+    background: #2fab9f;
+    color: #d6d6d6;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100px;
     line-height: 150px;
@@ -28,11 +28,11 @@ h1 {
     text-align: center;
     padding-left: 1%;
     padding-right: 1%;
-    box-shadow: 2px 1px 1px rgb(146, 170, 179);
+    box-shadow: 2px 1px 1px rgb(123, 123, 123);
 }
 
 h2 {
-    color: #4aaaa5;
+    color: #92a3b1;
     height: 5%;
     width: 90%;
     border-bottom: 3px solid #bbacaf;
@@ -67,8 +67,8 @@ h2 {
 
 .main-body {
     z-index: 1;
-    background-color: #ffffff;
-    box-shadow: 5px 3px 3px 1px rgb(146, 170, 179);
+    background-color: #55758e;
+    box-shadow: 5px 3px 3px 1px rgb(53, 53, 53);
     margin: auto;
     width: 50%;
     padding: 20px;
@@ -81,9 +81,8 @@ body {
     /* background-image: url("../images/background.png"); */
     /* background-image: url(../images/gravel.png); */
     /* background-image: url(../images/restaurant.png) */
-    /* background-image: url(../images/connectwork.png); */
+    background-image: url(../images/connectwork.png);
     /* background-image: url(../images/food.png); */
-    background-image: url(../images/seigaiha.png)
 }
 
 html, body {
